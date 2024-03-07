@@ -12,7 +12,7 @@ def inference_model(frame):
     interpreter_classification = tf.lite.Interpreter(model_path="model2.tflite")
     interpreter_classification.allocate_tensors()
 
-    # Get Height and Width
+    # Get Height and Width.
     _, height, width, _ = interpreter_segmentation.get_input_details()[0]['shape']
 
     # Load Image from Path and Resize
