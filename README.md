@@ -3,7 +3,7 @@
 In Development
 
 ## Installation
-
+Install the package
 ```bash
 pip install cataractseverity
 ```
